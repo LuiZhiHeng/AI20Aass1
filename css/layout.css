@@ -1,0 +1,101 @@
+
+    /** Layout **/
+
+    html {
+        background-image: url('../img/bg.jpg');
+        background-attachment: fixed;
+        min-width: 1600px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    /** html Style **/
+
+    a {
+        text-decoration: none;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    body {
+        margin: 0 auto;
+        padding: 0;
+        line-height: 1.5em;
+        font-size: 1em;
+        width: 70%;
+        height: 100%;
+        font-family: Arial, Verdana, Geneva, sans-serif;
+    }
+
+    /** Header Style **/
+    
+    header {
+        width: 100%;
+        text-align: center;
+    }
+
+    header > img {
+        width: 100%;
+        margin-bottom: -8px;
+    }
+
+    header h1 {
+        position: absolute;
+        color: rgb(224, 115, 13);
+        font-size: 3em;
+        top: 9%;
+        left: 46%;
+    }
+
+    header h2 {
+        position: absolute;
+        font-size: 3em;
+        top: 18.5%;
+        left: 23%;
+    }
+
+   /** nav Style **/
+
+    header nav {
+         background-color: rgb(224, 115, 13);
+    }
+
+    header nav > ul > li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px 20px;
+        width: 10%;
+    }
+
+    header li > a {
+        color: white;
+    }
+
+    header li a:hover {
+        padding: 10px 20px;
+        width: 10%;
+        background-color:  rgb(255, 230, 230);
+        color:  rgb(255, 144, 40);
+        font-weight: bold;
+    }
+
+    /** Section Style **/
+
+    section {
+        background-color: aliceblue;
+    }    
+
+    /** Footer Style **/
+
+    footer p {
+        background-color: rgb(224, 115, 13);
+        color: white;
+        padding: 10px;
+    }

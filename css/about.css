@@ -1,0 +1,54 @@
+    
+    /** About **/
+
+    section {
+        display: flex;
+    }
+
+    img#profile {
+        width: 70%;
+        border-radius: 100%;
+        border: 5px solid white;
+        box-shadow: 0 10px 30px gray;
+        margin: 20px;
+    } 
+
+    div.profile {
+        float: left;
+        width: 30%;
+        text-align: center;
+        border-right: 2px solid rgb(224, 115, 13);
+
+        padding: 15px;
+    }
+
+    div.imgd {
+        float: left;
+        width: 100%;
+        justify-content: center;
+
+        padding: 50px;
+    }
+
+    figure {
+        padding: 40px;
+    }
+
+    figure img {
+        width: 100%;
+        border: 3px solid white;
+        box-shadow: 0 10px 30px gray;
+    }
+
+    img#df {
+        width: 30%;
+        border-radius: 100%;
+    }
+
+    figcaption {
+        font-size: 0.7em;
+    }
+    
+    img#arrow {
+        height: 100px;
+    }
